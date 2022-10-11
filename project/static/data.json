@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Task Manager",
+    "description": "This is a basic project",
+    "assign": "Zillu",
+    "cTime": "Tue Oct 11 2022 12:05:21",
+    "deadline": "Tue Oct 19 2022 12:05:21"
+  },
+  {
+    "id": 2,
+    "name": "Booking System",
+    "description": "This is a basic project",
+    "assign": "Pro Dev",
+    "cTime": "Tue Oct 11 2022 12:05:21",
+    "deadline": "Tue Oct 19 2022 12:05:21"
+  }
+]
