@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <div>{{view}}</div>
     <div class="item">
       <div class="row">
         <div class="col-3">
