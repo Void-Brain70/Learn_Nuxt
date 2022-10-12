@@ -22,12 +22,12 @@
                       label="Project Description"
                     ></v-text-field>
                   </v-col>
-                  <v-col cols="12" sm="6" md="12">
+                  <!-- <v-col cols="12" sm="6" md="12">
                     <v-text-field
                       v-model="assign"
                       label="Assign To"
                     ></v-text-field>
-                  </v-col>
+                  </v-col> -->
                   <v-col cols="12" sm="6" md="12">
                     <v-text-field
                       v-model="deadline"

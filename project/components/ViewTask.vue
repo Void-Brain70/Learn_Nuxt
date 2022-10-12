@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import Draggable from './draggable.vue';
+import Draggable from './DragAble.vue';
 export default {
     name: "ViewTask",
     props: ["task"],

@@ -131,7 +131,8 @@
         </v-col>
       </v-row>
     </div>
-    <Draggable :view="taskdata" ></Draggable>
+    <!-- <DragAble :view="taskdata" ></DragAble> -->
+    <ShowTask :show="taskdata" ></ShowTask>
   </v-app>
 </template>
 
@@ -139,7 +140,8 @@
 import taskJson from "../static/task.json";
 import ViewTask from "./ViewTask.vue";
 import Task from "../pages/task.vue";
-import Draggable from "./draggable.vue";
+import DragAble from "./DragAble.vue";
+import ShowTask from "./ShowTask.vue";
 export default {
   name: "totalPrpject",
   props: ["project"],
@@ -178,7 +180,7 @@ export default {
       console.log("tasklist");
     },
   },
-  components: { ViewTask, Task, Draggable },
+  components: { ViewTask, Task, DragAble, ShowTask },
 };
 </script>
 

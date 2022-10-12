@@ -1,0 +1,15 @@
+[
+    {
+      "projectId": 1,
+      "projectName": "Task Manager",
+      "projectDescription": "This is a basic project",
+      "projectDeadline": "Tue Oct 19 2022 12:05:21"
+    },
+    {
+      "projectId": 2,
+      "projectName": "Booking System",
+      "projectDescription": "This is a basic project",
+      "projectDeadline": "Tue Oct 19 2022 12:05:21"
+    }
+  ]
+  
