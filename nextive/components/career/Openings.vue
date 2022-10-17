@@ -1,15 +1,24 @@
 <template>
   <div>
     <div class="body">
-        <div class="select" >
-           
-        <v-row align="center" md-10 >
-          <v-col class="d-flex" cols="10" sm="4">
-            <v-select :items="items" label="Web Developer" solo></v-select>
-          </v-col>
-        </v-row>
-   
-        </div>
+      <div class="select">
+        <label for="position"></label>
+
+        <select id="position">
+          <option value="Web Developer"><p>Web Developer</p></option>
+          <hr />
+          <option value="Graphics Designer"><p>Graphics Designer</p></option>
+          <hr />
+          <option value="Graphics Designer"><p>UI/UX Designer</p></option>
+          <hr />
+          <option value="Flutter Developer"><p>Flutter Developer</p></option>
+          <hr />
+          <option value="Web Developer Intern">
+            <p>Web Developer Intern</p>
+          </option>
+          <hr />
+        </select>
+      </div>
       <div class="filed1">
         <div class="text1">
           <p>Front End Developer</p>
@@ -48,9 +57,29 @@ export default {
   width: 100%;
   background-color: #39addf26;
   padding: 120px 0px;
-  .select{
+  .select {
     margin: 0px 50px;
     padding: 0px 0px;
+
+    #position {
+      background-color: #ffffff;
+      height: 50px;
+      width: 350px;
+      text-decoration: none;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      option {
+        text-align: center;
+        margin: 10px 0px;
+        padding: 20px 0px;
+        p {
+          font-size: 20px;
+          font-family: "Manrope";
+          margin: 10px 0px;
+          padding: 20px 0px;
+        }
+      }
+    }
   }
   .filed1 {
     background-color: #ffffff;
