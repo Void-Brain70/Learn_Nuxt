@@ -1,6 +1,13 @@
  <template>
     <div> 
-        <h1>Home page</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><NuxtLink to="/">Home</NuxtLink></li>
+                    <li><NuxtLink to="/products">Store</NuxtLink></li>
+                </ul>
+            </nav>
+        </header>
     </div>
  </template>
 
