@@ -6,9 +6,13 @@
           </div> 
           <div class="p-7"> 
             <h2 class="text-4xl my-7">{{ product.title }}</h2>
-            <p class="text-xl my-7" >{{ product.price }}</p>
+            <p class="text-xl my-7" >Price -${{ product.price }}</p>
             <h3 class="font-bold border-b-2 mb-4 pb-2">Product Description</h3>
             <p class="mb-7">{{ product.description }}</p>
+            <button class="btn flex">
+              <p class="material-icons mr-2">add_shopping_cart</p>
+              <span>Add to cart</span>
+            </button>
           </div>
        </div>  
     </div>
