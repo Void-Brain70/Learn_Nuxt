@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CategoryCard/>
     <h1 class="m-4 bg-red font-sans hover:font-serif text-sm">Tailwind</h1>
     <h1 class="font-sans">Font Family</h1>
     <h1 class="font-serif">Font Family</h1>
