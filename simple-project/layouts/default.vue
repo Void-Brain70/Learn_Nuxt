@@ -7,6 +7,7 @@
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/products">Product</NuxtLink></li>
           <li><NuxtLink to="/tailwind">Tailwind</NuxtLink></li>
+          <li><NuxtLink to="/minner">21 February</NuxtLink></li>
         </ul>
       </nav>
     </header>
