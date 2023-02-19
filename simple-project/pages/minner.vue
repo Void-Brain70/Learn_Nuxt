@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1>21 February</h1>
-    <div class="main">
-      <h1>Hi</h1>
-      <div>
-        <h1>col1</h1>
-      </div>
+    <TeacherCard/>
+    <div class="grid gap-3 grid-cols-3 grid-rows-3 ">
+    <div class="h-[80px] w-full bg-[green]">1</div>
+    <div class="h-[80px] w-full bg-[green]">2</div>
+    <div class="h-[80px] w-full bg-[green]">3</div>
+    <div class="h-[80px] w-full bg-[green]">4</div>
+    <div class="h-[80px] w-full bg-[green]">5</div>
+    <div class="h-[80px] w-full bg-[green]">6</div>
+    <div class="h-[80px] w-full bg-[green]">7</div>
+    <div class="h-[80px] w-full bg-[green]">8</div>
+    <div class="h-[80px] w-full bg-[green]">9</div>
     </div>
   </div>
 </template>
