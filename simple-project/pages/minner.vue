@@ -1,7 +1,8 @@
 <template>
   <div>
     <TeacherCard/>
-    <div class="grid gap-3 grid-cols-3 grid-rows-3 ">
+    <CourseCard/>
+    <!-- <div class="grid gap-3 grid-cols-3 grid-rows-3 pt-10">
     <div class="h-[80px] w-full bg-[green]">1</div>
     <div class="h-[80px] w-full bg-[green]">2</div>
     <div class="h-[80px] w-full bg-[green]">3</div>
@@ -11,7 +12,7 @@
     <div class="h-[80px] w-full bg-[green]">7</div>
     <div class="h-[80px] w-full bg-[green]">8</div>
     <div class="h-[80px] w-full bg-[green]">9</div>
-    </div>
+    </div> -->
   </div>
 </template>
 
