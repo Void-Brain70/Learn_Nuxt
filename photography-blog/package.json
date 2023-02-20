@@ -11,6 +11,7 @@
     "nuxt": "^3.1.2"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.6"
+    "@pinia/nuxt": "^0.4.6",
+    "vuetify": "^3.1.4"
   }
 }

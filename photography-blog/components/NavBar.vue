@@ -1,29 +1,23 @@
 <template>
   <div>
-    <div v-if="navlinks">
-      <div class="d-flex">
-        <!-- <ul>
-          <li v-for="(link, i) in navlinks" :key="i + link.id">
-            <nuxt-link
-              class="link--"
-              :to="link.to ? link.to : `/topic/${link.slug}`"
-              >{{ link.name }}</nuxt-link
-            >
-          </li>
-        </ul> -->
-        {{ navlinks }}
+    <header>
+      <a href="/" class="logo"><span>LOGO</span></a>
+      <ul class="nav">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/">Gallery</a></li>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/">Services</a></li>
+      </ul>
+      <div class="main">
+        <a href="/" class="user">Login</a>
+        <a href="/">Register</a>
+        <div class="menu"></div>
       </div>
-    </div>
+    </header>
   </div>
 </template>
 
-<script setup>
-const props = defineProps({
-  navlinks: {
-    type: Array,
-    default: [],
-  },
-});
-</script>
+<script setup></script>
 
-<style lang="scss" scoped></style>
+<style>
+</style>
