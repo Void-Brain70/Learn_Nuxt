@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[#161616]">
+    <header class="bg-[#161616] sticky top-0">
         <nav class="flex justify-between items-center w-[90%] mx-auto">
             <div class="">
                 <a href="/">
@@ -14,8 +14,8 @@
                 </ul>
             </div>
             <div>
-                <button class="bg-[#3c8fc2] text-white px-5 py-2 rounded-full" >Login</button>
-                <ion-icon name="menu" class="text-3xl cursor-pointer bg-[red]" ></ion-icon>
+                <button class="bg-[#567CFF] text-white px-5 py-2 rounded-full" >Login</button>
+                <!-- <Icon name="ph:list-bold" class="text-3xl cursor-pointer bg-[red]" ></Icon> -->
             </div>
         </nav>
     </header>
@@ -35,7 +35,7 @@ const navLink = [
 
 .router-link-active {
   color: #3c8fc2;
-  border-left: 4px solid #8FD2FD;
+  border-left: 4px solid #567CFF;
   padding-left: 10px;
 }
 </style>

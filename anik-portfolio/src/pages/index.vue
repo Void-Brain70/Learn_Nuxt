@@ -1,5 +1,7 @@
 <template>
-    <div>welcome to nuxt</div>
+    <div>
+        <CommonHero/>
+    </div>
 </template>
 
 <script setup>
