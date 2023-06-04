@@ -1,5 +1,5 @@
 <template>
-    <main class="min-h-screen">
+    <main>
        <CommonHeader />
         <slot></slot>
         <CommonFooter/>
