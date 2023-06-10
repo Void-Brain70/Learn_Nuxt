@@ -1,6 +1,7 @@
 <template>
     <div>
         <CommonHero/>
+        <CommonAbout/>
     </div>
 </template>
 
