@@ -1,8 +1,9 @@
 <template>
-    <div>
+    <div class="">
         <CommonHero/>
         <CommonAbout/>
         <CommonSkillSection/>
+        <CommonProjectSection/>
     </div>
 </template>
 

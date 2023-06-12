@@ -1,11 +1,7 @@
 <template>
     <div class="bg-[#161616]">
         <div class="container mx-auto h-screen">
-            <div class="pb-12 md:pb-20">
-                <h1 class="text-[white] text-border  text-center text-[24px] mx-20 md:mx-52 md:text-[34px] pb-2">My <span
-                        class="text-[#3c8fc2]">Skills</span>
-                </h1>
-            </div>
+            <CommonPageHeading textOne="My" textTwo="Skills" />
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 px-2 md:gap-12">
                 <div v-for="(items, i) in skills" :key="i">
                     <div  @click="openModal"
@@ -16,6 +12,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="text-center md:text-center pt-16">
+                <NuxtLink to="/skill">
+                    <button class="text-[14px] md:text-[18px] capitalize text-[#468dfc] hover:text-white border-2 border-[#468dfc] hover:bg-[#468dfc] to-pink-500 p-2 md:p-2 rounded-lg">Read More</button>
+                </NuxtLink> 
             </div>
         </div>
     </div>
@@ -56,6 +57,5 @@ function openModal() {
 </script>
 
 <style scoped>
-.text-border {
-    border-bottom: 4px solid #567CFF;
-}</style>
+
+</style>
