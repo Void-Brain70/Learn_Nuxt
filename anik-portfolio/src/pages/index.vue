@@ -2,6 +2,7 @@
     <div>
         <CommonHero/>
         <CommonAbout/>
+        <CommonSkillSection/>
     </div>
 </template>
 
