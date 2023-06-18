@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center md:text-center pt-8  md:pt-16">
+            <div class="text-center md:text-center pt-8  md:pt-12">
                 <NuxtLink to="/skill">
                     <button class="text-[14px] md:text-[18px] capitalize text-[#468dfc] hover:text-white border-2 border-[#468dfc] hover:bg-[#468dfc] to-pink-500 p-2 md:p-2 rounded-lg">Read More</button>
                 </NuxtLink> 
