@@ -17,7 +17,7 @@
                     </ul>
                 </div>
                 <div class="flex items-center gap-6">
-                    <button class="bg-[#567CFF] text-white px-5 py-2 rounded-full">Download CV</button>
+                    <button @click="downloadCv" class="bg-[#567CFF] text-white px-5 py-2 rounded-full">Download CV</button>
 
                     <div class="md:hidden">
                         <Icon @click="onToggleMenu" name="ph:list-bold" class="text-3xl cursor-pointer text-white"></Icon>
@@ -31,6 +31,8 @@
 </template>
 
 <script setup>
+import require from '@/public/me/Anik_Chandra_CV.pdf';
+
 const navLink = [
     { level: "Home", link: "/" },
     { level: "Project", link: "/project" },
@@ -39,6 +41,16 @@ const navLink = [
     { level: "Contact", link: "/contact" }
 ]
 const isMobile = ref(false);
+
+const downloadCv = () => {
+    const link = document.createElement('a');
+    link.href = require;
+    link.setAttribute('download', 'Anik_Chandra_CV.pdf');
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
 
 const onToggleMenu = () => {
     isMobile.value = !isMobile.value

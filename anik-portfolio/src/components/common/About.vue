@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#161616]">
-        <div class="container mx-auto">
+        <div class="container mx-auto h-screen">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div class="flex items-center pb-32  px-8 order-2 md:order-1">
                     <div class="rounded-3xl bg-blue-500 shadow-2xl shadow-blue-500/50">
