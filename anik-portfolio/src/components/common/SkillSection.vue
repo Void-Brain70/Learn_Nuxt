@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-[#161616]">
-        <div class="container mx-auto h-screen">
+    <div class="bg-[#161616] pt-[120px]">
+        <div class="container mx-auto">
             <CommonPageHeading textOne="My" textTwo="Skills" />
             <div class="grid grid-cols-2 md:grid-cols-5 gap-6 px-2 md:gap-12">
                 <div v-for="(items, i) in skills" :key="i">
@@ -37,15 +37,15 @@ const skills = [
     { text: "Python" },
     { text: "PHP" },
     { text: "C++" },
-    // { text: "C" },
+    { text: "C" },
     { text: "Vue JS" },
     { text: "Nuxt JS" },
     { text: "TailWind CSS" },
     { text: "Vuetify" },
     { text: "HTML" },
     { text: "CSS" },
-    // { text: "SCSS" },
-    // { text: "Laravel" }
+    { text: "SCSS" },
+    { text: "Laravel" }
 ]
 const isOpen = ref(true)
 

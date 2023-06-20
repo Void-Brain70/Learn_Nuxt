@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#161616]">
-        <div class="container mx-auto h-screen">
+        <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div class="mt-10 md:mt-36 px-4 md:px-0">
                    <div class="text-center md:text-left">

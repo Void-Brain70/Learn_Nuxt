@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-[#161616]">
-        <div class="container mx-auto ">
+    <div class="bg-[#161616] pt-[120px]">
+        <div class="container mx-auto">
             <CommonPageHeading textOne="My" textTwo="Projects" />
             <!-- Project Card  -->
             <div class="grid grid-cols-2 md:grid-cols-3 gap-6 py-4 px-2 md:gap-12">
