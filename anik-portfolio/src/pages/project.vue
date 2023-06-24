@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Project
-    </div>
+        <div>
+            <CommonProjectSection />
+        </div>
 </template>

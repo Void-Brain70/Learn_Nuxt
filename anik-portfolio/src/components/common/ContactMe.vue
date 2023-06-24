@@ -10,7 +10,7 @@
                     placeholder="Your Email Address" />
                 <input v-model="phone" class="my-2 py-4 px-2 rounded-lg" type="phone" id="phone" name="phone"
                     placeholder="Your Phone Number" />
-                <textarea class="my-2 text-start pt-2 px-2 rounded-lg" v-model="message" placeholder="Your Message"
+                <textarea class="my-2 text-start pt-2 px-2 rounded-lg" rows="4" cols="70" v-model="message" id="message" placeholder="Your Message"
                     required></textarea>
             </div>
             <div class="text-center pt-8">
@@ -22,6 +22,8 @@
 </template> 
 
 <script setup>
+import emailjs from 'emailjs-com';
+
 const contactData = ref({
     name: '',
     email: '',
@@ -29,26 +31,26 @@ const contactData = ref({
     message: ''
 })
 
+
+
 const submitContactData = () => {
     const fromData = {
-        name: this.name,
-        email: this.email,
-        phone: this.phone,
-        message: this.message
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value
     }
-    this.$emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', fromData)
+    emailjs.send('service_qr5d0mi', 'template_bkavvk2', fromData, 'GjFU8_AGyYtnNHsiL')
         .then(response => {
             console.log('Email sent:', response);
-            this.name = '';
-            this.email = '';
-            this.phone = '';
-            this.message = '';
+            alert('Your information send to Anik Chandra Email')
         })
         .catch(error => {
             console.error('Error sending email:', error);
         });
     console.log(fromData)
 }
+
 
 
 </script>

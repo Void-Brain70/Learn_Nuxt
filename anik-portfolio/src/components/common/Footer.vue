@@ -39,7 +39,7 @@
 const footerLink = [
   [
     { level: "About Me", link: "/about-me" },
-    { level: "Blog", link: "/blog" },
+    { level: "My Photography", link: "/photography" },
     { level: "Project", link: "/project" }
   ],
 ];
