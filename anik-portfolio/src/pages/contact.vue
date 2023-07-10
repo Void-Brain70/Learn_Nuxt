@@ -1,5 +1,5 @@
 <template>
     <div>
-        Contact
+        <CommonContactMe />
     </div>
 </template>
