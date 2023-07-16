@@ -8,7 +8,7 @@
                         <h3 class="text-center pt-8 text-[20px] md:text-[24px] border-b-4 border-[#76b5c5] max-w-fit">My Programming
                             Language Skill List</h3>
                     </div>
-                    <div class="flex flex-wrap justify-evenly items-center py-12">
+                    <div class="flex flex-wrap justify-evenly items-center py-12 px-2">
                         <img class="h-[60px] md:h-[100px]" src="../public/skill/js.png" />
                         <img class="h-[60px] md:h-[100px]" src="../public/skill/python.png" />
                         <img class="h-[60px] md:h-[100px]" src="../public/skill/c.png" />
@@ -24,8 +24,8 @@
                             Skill List</h3>
                     </div>
                     <div class="flex flex-wrap items-center justify-center gap-20 py-12">
-                        <img class="h-[100px]" src="../public/skill/vue.png" />
-                        <img class="h-[120px]" src="../public/skill/nuxt.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/vue.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/nuxt.png" />
                     </div>
                 </div>
             </div>
@@ -35,8 +35,8 @@
                         <h3 class="text-center pt-8 text-[20px] md:text-[24px] border-b-4 border-[#76b5c5] max-w-fit">My Backend Framework
                             Skill List</h3>
                     </div>
-                    <div class="flex flex-wrap items-center justify-evenly py-12">
-                        <img class="h-[100px]" src="../public/skill/laravel.png" />
+                    <div class="flex flex-wrap items-center justify-evenly py-12 px-2">
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/laravel.png" />
                     </div>
                 </div>
             </div>
@@ -46,13 +46,13 @@
                         <h3 class="text-center pt-8 text-[20px] md:text-[24px] border-b-4 border-[#76b5c5] max-w-fit">My Design
                             Skill List</h3>
                     </div>
-                    <div class="flex flex-wrap items-center justify-evenly py-16">
-                        <img class="h-[100px]" src="../public/skill/html.png" />
-                        <img class="h-[100px]" src="../public/skill/css.png" />
-                        <img class="h-[100px]" src="../public/skill/vuetify.png" />
-                        <img class="h-[100px]" src="../public/skill/tailwind.png" />
-                        <img class="h-[100px]" src="../public/skill/bootstrap.png" />
-                        <img class="h-[100px]" src="../public/skill/sass.png" />
+                    <div class="flex flex-wrap items-center justify-evenly py-16 px-2">
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/html.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/css.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/vuetify.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/tailwind.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/bootstrap.png" />
+                        <img class="h-[60px] md:h-[100px]" src="../public/skill/sass.png" />
                     </div>
                 </div>
             </div>
