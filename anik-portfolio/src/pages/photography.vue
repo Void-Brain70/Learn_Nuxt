@@ -1,6 +1,11 @@
 <template>
-    <div class="bg-[#161616]">
-        <PhotographyCard/>
+    <div class="bg-[#161616] pt-[60px]">
+        <div class="container mx-auto my-auto">
+          <CommonPageHeading textOne="My" textTwo="Photography" />
+          <div>
+            <PhotographyCard />
+          </div>
+        </div>
     </div>
 </template>
 

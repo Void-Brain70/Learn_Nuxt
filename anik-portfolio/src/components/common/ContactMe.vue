@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#161616] py-[120px]">
+    <div class="bg-[#161616] py-[60px]">
         <div class="container mx-auto my-auto">
             <CommonPageHeading textOne="Contact" textTwo="Me" />
             <!-- From Section  -->

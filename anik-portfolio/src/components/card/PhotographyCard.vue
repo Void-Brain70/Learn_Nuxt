@@ -1,6 +1,8 @@
 <template>
     <div>
-        PhotoGraphy Card
+       <div>
+         <img src="../../public/skill/python.png"/>
+       </div>
     </div>
 </template>
 
