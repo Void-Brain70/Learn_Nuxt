@@ -36,8 +36,8 @@ const project = [
     { name: "Master Class", image: "/ProjectPic/masterClass.png", link: "https://www.masterclass.com.bd/" },
     { name: "Unmilan", image: "/ProjectPic/unmilon.png", link: "https://unmilan.com/" },
     { name: "News Protal", image: "/ProjectPic/news.png", link: "https://giants-news.vercel.app/" },
-    { name: "Todo App", image: "/ProjectPic/todo.png", link: "" },
+    { name: "Todo App", image: "/ProjectPic/todo.png", link: "https://todo-project-alpha-six.vercel.app/" },
     { name: "Photography Blog", image: "/ProjectPic/unmilon.png", link: "" },
-    { name: "Weather App", image: "", link: "" }
+    { name: "Weather App", image: "/ProjectPic/weather.png", link: "https://weather-project-ten-navy.vercel.app/" }
 ]
 </script>

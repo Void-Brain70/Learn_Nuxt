@@ -25,14 +25,23 @@
                     </div>
                 </div>
             </nav>
-            <CommonMobileNav v-if="isMobile" :item="navLink" />
+          <div class="absolute block md:hidden py-4 bottom-[536px] w-full bg-[white]" v-if="isMobile">
+            <div class="  ">
+              <ul class=" flex justify-center px-8  gap-y-2 flex-col">
+                <li class="shadow px-2 py-1" v-for="(item, i) in navLink" :key="i">
+                  <nuxt-link :to="item.link" class="text-[20px]"><span><Icon color="" class="mr-2" name="fluent-emoji-flat:anchor" /></span>{{ item.level }}</nuxt-link>
+                </li>
+              </ul>
+            </div>
+          </div>
+<!--            <CommonMobileNav v-if="isMobile" :item="navLink" />-->
         </div>
     </header>
 </template>
 
 <script setup>
 import require from '@/public/me/Anik_Chandra_CV.pdf';
-
+const route = useRoute();
 const navLink = [
     { level: "Home", link: "/" },
     { level: "Project", link: "/project" },
@@ -41,7 +50,12 @@ const navLink = [
     { level: "Contact", link: "/contact" }
 ]
 const isMobile = ref(false);
+const isOpen= ref(false);
+const isClick = ref(false);
 
+watch(route, function (nv, ov){
+  isMobile.value = false;
+})
 const downloadCv = () => {
     const link = document.createElement('a');
     link.href = require;
