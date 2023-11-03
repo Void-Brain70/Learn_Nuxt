@@ -4,6 +4,7 @@
         <div>
           <p class="text-[20px]">{{ item.title }}</p>
         </div>
+
         <div class="flex gap-x-4 items-center">
           <Icon size="30" name="system-uicons:write"/>
           <Icon  @click="todoStore.toggleFavourite(item.id)" :class="{ active: item.isFav }"  size="30" name="system-uicons:heart"/>
