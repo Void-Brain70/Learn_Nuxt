@@ -3,6 +3,7 @@
     <header>
       <a href="/" class="logo"><span>LOGO</span></a>
       <ul class="nav">
+
         <li><a href="/" class="active">Home</a></li>
         <li><a href="/">Gallery</a></li>
         <li><a href="/">Blog</a></li>
